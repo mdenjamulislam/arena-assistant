@@ -365,13 +365,13 @@ export default function PersonalAssistantApp() {
             <button
               onClick={() => setActiveTab('home')}
               className="mb-8 flex w-full items-center justify-center gap-3 lg:justify-start"
-              title="AURA AI Home"
+              title="Arena AI Home"
             >
               <span className="brand-mark flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-2xl text-white">
                 <Sparkles className="h-5 w-5" />
               </span>
               <span className="hidden text-left lg:block">
-                <span className="block text-base font-bold leading-tight text-slate-900">AURA</span>
+                <span className="block text-base font-bold leading-tight text-slate-900">Arena</span>
                 <span className="block text-[11px] font-medium text-slate-400">Personal AI Workspace</span>
               </span>
             </button>
@@ -497,7 +497,7 @@ export default function PersonalAssistantApp() {
                     className={`iridescent-orb flex h-28 w-28 cursor-pointer items-center justify-center focus:outline-none sm:h-36 sm:w-36 ${
                       busy ? 'animate-orb-active' : 'animate-orb-idle'
                     }`}
-                    title="Click to talk with AURA"
+                    title="Click to talk with Arena"
                   >
                     <Mic
                       className={`relative z-10 h-6 w-6 transition ${
@@ -532,7 +532,7 @@ export default function PersonalAssistantApp() {
                   <div className="mt-3 w-full max-w-xl rounded-2xl border border-white/90 bg-white/80 px-5 py-4 text-left shadow-[0_8px_30px_-12px_rgba(148,163,184,0.35)] backdrop-blur-md">
                     <div className="mb-1.5 flex items-center justify-between">
                       <span className="flex items-center gap-1.5 text-[11px] font-semibold uppercase tracking-wider text-pink-500">
-                        <Sparkles className="h-3 w-3" /> AURA Response
+                        <Sparkles className="h-3 w-3" /> Arena Response
                       </span>
                       <button
                         onClick={() => setActiveTab('chat')}
@@ -801,7 +801,7 @@ export default function PersonalAssistantApp() {
                     Permission & Approval Center
                   </h2>
                   <p className="mt-0.5 text-xs text-slate-500">
-                    Human-in-the-loop: AURA never posts to social media or sends an email without your explicit permission.
+                    Human-in-the-loop: Arena never posts to social media or sends an email without your explicit permission.
                   </p>
                 </div>
 
